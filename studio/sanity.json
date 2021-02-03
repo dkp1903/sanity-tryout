@@ -19,26 +19,5 @@
     "dashboard-widget-netlify",
     "@sanity/studio-hints"
   ],
-  "parts": [
-    {
-      "name": "part:@sanity/base/schema",
-      "path": "./schemas/schema.js"
-    },
-    {
-      "implements": "part:@sanity/base/theme/variables/override-style",
-      "path": "./src/styles/variables.css"
-    },
-    {
-      "name": "part:@sanity/desk-tool/structure",
-      "path": "./src/structure/deskStructure.js"
-    },
-    {
-      "implements": "part:@sanity/dashboard/config",
-      "path": "./src/dashboardConfig.js"
-    },
-    {
-      "implements": "part:@sanity/default-layout/studio-hints-config",
-      "path": "./src/studioHintsConfig.js"
-    }
-  ]
+
 }
